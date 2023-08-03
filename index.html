@@ -38,9 +38,26 @@
             padding: 5px;
             border: solid 5px black;
         }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 50px;
+            width: 100%;
+            margin-top: 50px;
+            margin-left: 235px;
+        }
+
+        .grid-items {
+            background-color: rgb(107, 141, 237) ;
+            text-align: center;
+            border: solid 5px black;
+            font-size: 50px;
+            padding: 20px;
+        }
     </style>
 
-    <link rel="shortcut icon" href="./3f4b472cbedeb312bd83e13f22f8f27c.jpg">
+    <link rel="shortcut icon" href="./assets/3f4b472cbedeb312bd83e13f22f8f27c.jpg">
 </head>
 
 <body>
@@ -51,7 +68,7 @@
     </div>
 
     <div  class = "image" >
-        <img src="./IMG_20230331_185606 (1).jpg" alt="me">
+        <img src="./assets/IMG_20230331_185606 (1).jpg" alt="me">
     </div>
 
     <div> 
@@ -78,6 +95,11 @@
             <li><a href="#" target="_blank">Instagram</a></li>
             <li><a href="https://github.com/Pratheesh-04" target="_blank">Github</a></li>
         </ul>
+    </div>
+
+    <div class="grid-container" >
+        <div class="grid-items">Project 1</div>
+        <div class="grid-items">Project 2</div>
     </div>
 </body>
 </html>
