@@ -130,3 +130,17 @@ for (var ele in b) {
         }
     }
 }
+
+
+// functions
+function f_name () {
+    console.log (5 + 5)
+    console.log ("PW" + 5 + 5)
+}
+f_name()
+
+function f1_name (a,b) {
+    console.log (a + b)
+    console.log (a + b + 5 + 5 + "PW" + 5 + 5)
+}
+f1_name(5,5)
