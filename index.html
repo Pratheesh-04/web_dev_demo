@@ -11,14 +11,17 @@
 
         h1 {
             text-align: center;
+            font-size: 50px;
         }
 
         h2 {
             text-align: center;
+            font-size: 30px;
         }
 
         p {
             text-align: center;
+            font-size: 20px;
         }
 
         .image{
@@ -49,6 +52,22 @@
         }
 
         .grid-items {
+            background-color: rgb(107, 141, 237) ;
+            text-align: center;
+            border: solid 5px black;
+            font-size: 50px;
+            padding: 20px;
+        }
+
+        .flex-container {
+            display: flex;
+            gap: 50px;
+            margin-top: 50px;
+            margin-left: 235px;
+        }
+
+        .flex-items {
+            flex-basis: 495px;
             background-color: rgb(107, 141, 237) ;
             text-align: center;
             border: solid 5px black;
@@ -100,6 +119,11 @@
     <div class="grid-container" >
         <div class="grid-items">Project 1</div>
         <div class="grid-items">Project 2</div>
+    </div>
+
+    <div class="flex-container" >
+        <div class="flex-items">Project 3</div>
+        <div class="flex-items">Project 4</div>
     </div>
 </body>
 </html>
