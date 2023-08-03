@@ -19,3 +19,13 @@ else if (a > 0) {
 else {
     console.log("The number is negative")
 }
+
+for (i =0; i < 10; i++) {
+    console.log(i)
+}
+
+var j = 11
+while (i < 21) {
+    console.log(i);
+    i++;
+}
