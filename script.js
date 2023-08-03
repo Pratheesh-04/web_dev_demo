@@ -106,4 +106,27 @@ console.log(b["color"])
 console.log(b.airbags)
 var some = "model"
 console.log(b[some])
-console.log(a)
+console.log(b)
+
+// changing the value of an object
+b.car = "BMW"
+console.log(b)
+
+// adding new value and nested object
+b.sunroof = {
+    is_present : "Yes",
+    Shape : "Rectangle"
+}
+console.log(b)
+
+// accessing nested object
+console.log(b.sunroof.is_present)
+for (var ele in b) {
+    console.log(ele + ":" + b[ele] )
+    if (typeof b[ele] == "object")
+    {
+        for (var val in b[ele]) {
+            console.log (val + ":" + b[ele][val])
+        }
+    }
+}
