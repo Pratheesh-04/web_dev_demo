@@ -91,3 +91,19 @@ if (array.length > 0) {
 else {
     console.log ("No elements are in the array")
 }
+
+// Objects
+b = {
+    car : "Audi",
+    model : "AB",
+    airbags : 8,
+    wheels : 4,
+    color : "Blue"
+}
+
+// accessing the object
+console.log(b["color"])
+console.log(b.airbags)
+var some = "model"
+console.log(b[some])
+console.log(a)
