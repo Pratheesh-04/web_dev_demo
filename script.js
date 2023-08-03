@@ -9,7 +9,8 @@ var a = 10
 console.log(a)
 
 // if else
-var a = prompt("Enter a number : ")
+// var a = prompt("Enter a number : ")
+var a = 10
 console.log("Number : " + a)
 if (a === 0) {
     console.log("The number is 0 and adding 1 to make it positive")

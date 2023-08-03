@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>full_stack</title>
-    <!-- <script src = "./script.js"></script> -->
+    <script src = "./script.js"></script>
     <script src = "./link_script.js"></script>
     <style>
         html {
@@ -76,6 +76,28 @@
             font-size: 50px;
             padding: 20px;
         }
+
+        .year {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .option {
+            background-color: orange;
+            color: white;
+            padding: 5px;
+            border: none;
+        }
+
+        .print {
+            margin-left: 50%;
+            margin-top: 50px;
+            background-color: orange;
+            color: white;
+            padding: 5px;
+            border: none;
+        }
     </style>
 
     <link rel="shortcut icon" href="./assets/3f4b472cbedeb312bd83e13f22f8f27c.jpg">
@@ -87,10 +109,12 @@
         <i><h2>Pratheeshwaran S</h2></i>
         <b><i><p>Artificial Intelligence and Data Science</p></i></b>
         <b><i><p id = "hello"></p></i></b>
-        <button onclick="first()">In 1st year</button>
-        <button onclick="second()">In 2nd year</button>
-        <button onclick="third()">In 3rd year</button>
-        <button onclick="final()">In final year</button>
+        <div class="year">
+            <button onclick="first()" class="option">In 1st year</button>
+            <button onclick="second()" class="option">In 2nd year</button>
+            <button onclick="third()" class="option">In 3rd year</button>
+            <button onclick="final()" class="option">In final year</button>
+        </div>
     </div>
 
     <div  class = "image" >
@@ -133,6 +157,6 @@
         <div class="flex-items">Project 4</div>
     </div>
 
-    <button onclick="window.print()">Print this page</button>
+    <button onclick="window.print()" class="print">Print this page</button>
 </body>
 </html>
