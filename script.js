@@ -145,3 +145,20 @@ function f1_name (a,b) {
     console.log (a + b + 5 + 5 + "PW" + 5 + 5)
 }
 f1_name(5,5)
+
+
+// defining function in one line
+c = () => console.log ("Hello World !!")
+c()
+
+
+// creating class and object
+class AI {
+    abcd = "alphabet";
+    diff () {
+        console.log ("This is a class")
+    }
+    sum () {
+        console.log (this.abcd)
+    }
+}
